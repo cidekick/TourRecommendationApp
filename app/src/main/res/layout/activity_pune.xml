@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/puneimg"
+            android:src="@drawable/pune">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Pune is a bustling metropolis of Maharashtra, ranked number one in India in the ease of living. Often referred to as the Oxford of the East, it is a hub of diverse people and activities and is in rapidly growing into one of the top metropolitan cities in the country. Pune is a city that perfectly blends modernity with tradition sprinkled with colonial-era charm, and it deserves the title of being the cultural capital of Maharashtra.\n\n
+
+Behind the modern commercialized façade of Pune lies the roots of ancient Poona, which gave birth to the Maratha Empire and had a very crucial role to play in the history of India’s independence. Pune is globally known for the Osho Ashram which attracts followers from all over the world. Dotted with palaces and temples, the most important of these are the Shaniwar Wada palace and the Aga Khan Palace. \n\n
+
+To experience the grandiose of Maratha architecture coupled with stunning views of the Sahyadris, the Singhagad fort is a must-visit tourist attraction. Due to its alluring location on the Bhuleshwar Range of the Sahyadri Mountains, it offers excellent trekking trails to the top of the cliffs. \n\n
+
+While Pune has plenty of eating options, ranging from street food to high-class restaurants where one can enjoy all kinds of cuisines, it is renowned for its bakery items. Ranging from a variety of cookies, pastries to even cakes, don’t forget to try out Pune’s mouth-watering desserts."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

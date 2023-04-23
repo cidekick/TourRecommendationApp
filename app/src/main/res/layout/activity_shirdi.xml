@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/shirdiimg"
+            android:src="@drawable/shirdi">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Located at a distance of 122 Km from Nasik in the Ahmednagar district of Maharashtra, Shirdi is the home of Sai Baba. It is believed that Sai Baba arrived at Shirdi in 1858 and spent 60 years of his life here until he attained salvation in 1918. Sai Baba is popularly known as the 'child of God', as he always spread the message of universal brotherhood.\n\n
+
+Apart from his shrine, there are many small temples in the complex, such as Chavadi, Samadhi Mandir, Dwarkamai. Shani Shignapur is located at a distance of 72km from Shirdi."
+
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/ajanta"
+>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textSize="35dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/alibaug"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Alibaug" />
+
+        <Button
+            android:id="@+id/amboli"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Amboli" />
+
+        <Button
+            android:background="@drawable/roundedbutton"
+
+            android:id="@+id/aurangabad"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Aurangabad" />
+
+        <Button
+            android:id="@+id/bhandardara"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/roundedbutton"
+
+
+            android:text="Bhandardara" />
+
+        <Button
+            android:id="@+id/bhimashankar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/roundedbutton"
+
+            android:text="Bhimashankar" />
+
+        <Button
+            android:id="@+id/chikhaldhara"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:background="@drawable/roundedbutton"
+            android:text="Chikhaldhara" />
+
+        <Button
+            android:id="@+id/ganpatipule"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:background="@drawable/roundedbutton"
+            android:textStyle="bold"
+
+            android:text="Ganpatipule" />
+
+        <Button
+            android:id="@+id/khandala"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Khandala" />
+
+        <Button
+            android:id="@+id/kolad"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Kolad" />
+
+        <Button
+            android:id="@+id/kolhapur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Kolhapur" />
+
+        <Button
+            android:id="@+id/lavasa"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Lavasa" />
+
+    <Button
+        android:id="@+id/lonavala"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Lonavala" />
+
+    <Button
+        android:id="@+id/mahabaleshwar"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Mahabaleshwar" />
+
+    <Button
+        android:id="@+id/mumbai"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Mumbai" />
+
+    <Button
+        android:id="@+id/nagpur"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundedbutton"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Nagpur" />
+
+    <Button
+        android:id="@+id/nashik"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundedbutton"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Nashik" />
+
+    <Button
+        android:id="@+id/panchgani"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Panchgani" />
+
+    <Button
+        android:id="@+id/panvel"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Panvel" />
+
+    <Button
+        android:id="@+id/pune"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Pune" />
+
+    <Button
+        android:id="@+id/raigad"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Raigad" />
+
+    <Button
+        android:id="@+id/ratnagiri"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Ratnagiri" />
+
+    <Button
+        android:id="@+id/shirdi"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Shirdi" />
+
+    <Button
+        android:id="@+id/tadoba"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Tadoba National Park" />
+
+    <Button
+        android:id="@+id/tarakarli"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Tarakarli" />
+
+
+    </LinearLayout>
+
+</ScrollView>

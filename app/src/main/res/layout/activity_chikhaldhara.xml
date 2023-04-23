@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chikhaldharaimg"
+            android:src="@drawable/chikhaldara">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Bhimashankar, located about 100 km from Pune and 223 km from Mumbai, is a popular temple town. It is among one of the twelve traditional 'Jyotilingam' shrines of Lord Shiva in India.\n\n
+
+Bhimashankar is located in the village Bhorgiri in the ghat region of the Sahyadri range. Situated at an height of around 3,250 feet, Bhimashankar is surrounded by hills and is covered by thick green rainforests. Legend has it that the name Bhimashankar was originated from the river Bhima which evaporated due to the generated between the war of Lord Shiva and the demon Tripurasura. It is considered to be one of the holiest places in India because of the jyotirlinga. Bhimashankar is also a popular destination for trekkers. Bhimashankar Wildlife Sanctuary is another important reason why people come here."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

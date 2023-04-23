@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/alibaugimg"
+        android:src="@drawable/alibag">
+
+    </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Alibaug (also spelled as Alibag) is a small coastal town in the Konkan region of Maharashtra, known for its beaches, villas, and beautiful scenery. Alibag is very popular as a weekend getaway from the cities of Mumbai and Pune.\n\n
+
+Water sports in Alibaug like parasailing, banana boat and jet ski and speed boating are quite popular during the dry season. Most tourist families spend at least one night in Alibag with extending to multiple nights.\n\n
+
+Alibaug has earned itself the name of 'mini-Goa', owing to the high tourist footfall all year round. Steeped in colonial history, Alibaug is a quaint little town located about 96 km from Mumbai and 150 km from Pune, and is replete with sandy beaches, clean unpolluted air, and plenty of forts and temples, ensuring that despite being a small town, you never run out of activities to do.\n\n
+
+Alibaug is famous for its numerous beaches, which are only a few minutes’ drive away from each other, so you won’t have to worry about which beach to visit and which one to leave out. The most visited beach in Alibaug is, of course, Alibaug Beach, which offers a spectacular of view of not only the sunrise and sunset but of the Kolaba Fort as well, which you can take a short boat ride to. The Colaba fort was once the cornerstone of the Maratha Empire, and most of the edifice is still in good shape. Other popular beaches in the area include Kihim Beach, and Nagaon Beach, with Kihim beach being a photographer’s paradise.\n\n
+
+Alibaug is also home to Mandwa Beach, a beach famously known for the innumerable number of movie shootings that take place here. The beach offers a stunning view of the Gateway of India from its bay, and you can sit and sip on a cool drink on the sand under the orchard of coconut trees lining the beach.\n\n
+
+"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

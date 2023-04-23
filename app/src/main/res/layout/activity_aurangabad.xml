@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/aurangabadimg"
+            android:src="@drawable/aurangabad">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Aurangabad, which was declared by the Government as the Tourism Capital of Maharashtra back in 2010, is a famous tourist hub which greets its visitors with a richly woven tapestry of sights and sounds. The city got its name for being the erstwhile capital of Mughal Emperor Aurangzeb in the 17th century AD. The town is used as the base to explore the extremely famous caves of Ajanta and Ellora, Daulatabad Fort which is renowned for its strong defence systems, Mausoleums of Aurangzeb and Bibi-Ka-Maqbara famous for its architecture and Grishneshwar Temple, one of the only 12 Shiva Jyotirlingas in India.\n\n
+
+From UNESCO World Heritage Sites to bustling markets brimming with delicate silk items and exquisite hand-woven garments, Aurangabad promises all tourists an exciting holiday experience. While the city is rapidly heading towards industrial growth and globalisation, it still retains most of its past glory, heritage, charms and traditions.\n\n
+
+The most famous tourist attraction of Aurangabad is the Ajanta and Ellora Caves. Declared a World Heritage Site by UNESCO, the Ajanta Caves is home to 29 different caves, all of which showcase Buddhist artwork belonging to the period ranging from 200 B.C to 650 A.D. All paintings and sculptures in the caves were constructed painstakingly by Buddhist monks using only simple tools such as chisels and hammers. These paintings and sculptures portray a varied range of stories, starting from the Jataka Tales to intriguing accounts of ancient nymphs and princesses. The Ellora Caves, a little distance away from the Ajanta Caves, houses a total of 34 caves and has sculptures and paintings depicting not one, but three different religions – Hinduism, Buddhism and Jainism. The sheer diversity of the sculptures, the architectural expertise, and the centuries of hard work undertaken by artisans are enough to leave you speechless.\n\n
+
+The sole remaining example of Mughal architecture in this part of the country, Bibi ka Maqbara is a mausoleum dedicated to Rabia-ul-Daurani, wife of Mughal Emperor Aurangzeb. Designed by the Persian architect Ustad-Ata-Ullah, Bibi ka Maqbara has a structure similar to that of the Taj Mahal, with the main structure bordered by four towering minarets on four sides. The entire building is a sight to behold, and sunrises and sunsets are resplendent, with the rays of the sun beautifully casting the reflection of the mausoleum on the water of the canal in front of the building.\n\n
+
+Aurangabad is also home to temples such as the Jyothirlinga Grishneshwar temple and the Bhadra Maruti Temple, both of which have legends and myths of their own.\n\n
+
+Siddharth Garden is a place that all nature lovers will be mesmerized by. A landscaped garden housing a wide variety of sculpted trees and shrubs, the Siddharth Garden is also home to wild creatures such as lions, tigers, leopards, deer, and hyena. Sitting back on the green lawns of the garden and enjoying a beautiful picnic is a very popular tourist activity here.\n\n
+
+The erstwhile Mughal capital has retained most of its traditional Tughlaq cuisine, with Tandoors and Kebabs being local staples that you will find at almost every roadside eatery.\n\n
+
+Known for its arts and crafts, and especially its silk, Aurangabad has plenty of markets from where you can buy various local handicrafts, exotic gems, shawls, and of course, the region’s famous paithani silk sarees."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

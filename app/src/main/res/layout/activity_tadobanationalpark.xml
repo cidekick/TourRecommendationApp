@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/tadobaimg"
+            android:src="@drawable/tadoba">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Famous for its natural heritage, Tadoba Andhari Tiger Reserve is definitely one of India's most exciting and best protected Tiger Reserve, with most visible tiger sightings in the state of Maharashtra\n\n
+
+Tadoba national park is located in Chandrapur district of Maharashtra. This place is an ideal weekend gateway for wildlife and nature lovers. Spotted in this region are rare species of flora and fauna, soothing your very being. Tadoba is famous for Tadoba national park, Tadoba-Andhari Tiger Reserve, Tadoba lake, Erai dam, Moharli and Khosla village. These attractions serves the tourists of an enchanting wildlife experience."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

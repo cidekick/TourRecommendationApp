@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/koladimg"
+            android:src="@drawable/kolad">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Famous for white water rafting, Kolad is a thriving tiny village in the Raigad district in Maharashtra. Known for its cascading waterfalls, green meadows and picturesque backdrop of Sahyadris, Kolad is gaining traction as an adventure sports destination with provisions for rafting, rappelling, and kayaking.\n\n
+
+Kolad boasts of natural beauty which blooms during the monsoons. Known as the Rishikesh of Maharashtra, the majestic valleys and picturesque backdrops make Kolad a treat for nature lovers as well as shutterbugs. The river Kundalika is a big attraction here especially for people who interested in white water rafting. The Kundalika River is one of the fastest flowing rivers of the South which makes it ideal for water rafting and other adventure activities. Along with that, there are a couple of forts, dams and waterfalls which make Kolad a good holiday destination with something to offer to everyone.\n\n
+
+Kolad is loaded with natural plants and lavish greenery and its wonderful valleys and marshlands give it a portrait-like edge. Kolad is popular for the abundance of waterfalls, rough topography and rocky mountains. Visitors can go for treks and other sporting activities like paragliding and parasailing."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

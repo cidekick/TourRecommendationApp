@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/pune"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textSize="35dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+            android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/bhandardara2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Bhandardara" />
+
+        <Button
+            android:id="@+id/bhimashankar2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Bhimashankar" />
+
+        <Button
+            android:id="@+id/khandala2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Khandala" />
+
+        <Button
+            android:id="@+id/kolad2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Kolad" />
+
+        <Button
+            android:id="@+id/lavasa2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Lavasa" />
+
+        <Button
+            android:id="@+id/lonavala2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Lonavala" />
+
+        <Button
+            android:id="@+id/mahabaleshwar2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:text="Mahabaleshwar"
+            android:textSize="20dp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mumbai2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Mumbai" />
+
+        <Button
+            android:id="@+id/panchgani2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Panchgani" />
+
+        <Button
+            android:id="@+id/pune2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:text="Pune" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

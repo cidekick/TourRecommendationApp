@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/chikhal"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textSize="35dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+            android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_marginLeft="52dp"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+            android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Region-wise recommendations"/>
+
+
+        <Button
+            android:id="@+id/vidarbha"
+            android:layout_width="220dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:text="Vidarbha" />
+
+        <Button
+            android:id="@+id/konkan"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="13dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+
+            android:text="Konkan" />
+
+        <Button
+            android:id="@+id/desh"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="13dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+            android:text="Desh" />
+        <Button
+            android:id="@+id/marathwada"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="13dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+            android:text="Marathwada" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="17dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="138dp"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+            android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Packages"/>
+
+        <Button
+            android:id="@+id/nagpurpkg"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+            android:text="Nagpur Package" />
+
+        <Button
+            android:id="@+id/punepkg"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+            android:text="Pune Package" />
+
+        <Button
+            android:id="@+id/konkanpkg"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+            android:text="Konkan Package" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="17dp"
+            android:background="@color/black"/>
+
+        <Button
+            android:id="@+id/allcities"
+            android:layout_width="250dp"
+            android:layout_marginLeft="78dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+            android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="All Destinations"/>
+
+    </LinearLayout>
+
+</ScrollView>

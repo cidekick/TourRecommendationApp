@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/nasikimg"
+            android:src="@drawable/nasik">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Nasik is a religious Hindu city, host to the Kumbh Mela every 12 years. It also makes for a perfect wine tasting destination.\n\n
+
+Nashik (Nasik), named after a relic associated with Ramayana, is a city in Maharashtra located on the banks of river Godavari. Nashik plays host to the famous Kumbh Mela every 12 years. The city is home to plenty of exotic temples and is known in Hindu mythology as the place where Ravana's sister, Surpanakha, tried to seduce Lord Ram and got her nose cut off by Lakshman in the process. Its religious importance doesn't end there. It also plays host to the thousands of tourists visiting Shirdi and Trimbakeshwar. Apart from its temples, Nashik also has forts, waterfalls and vineyards to look out for. With multiple vineyards present in Nashik, the most popular being Sula, the wine-tourism industry is mushrooming in this part of Maharashtra. Nashik gives you the chance to experience a fabulous cocktail of extremes - from temples to vineyards, hills to waterfalls, this place offers a lot to see."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

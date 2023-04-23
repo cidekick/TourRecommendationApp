@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/panvelimg"
+            android:src="@drawable/panvel">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Best known as the gateway of Konkan coast, Panvel is the most crowded locality of Raigad District of Maharashtra. Located at a distance of 40kms from Mumbai metropolitan region, Panvel is highly populated. It is known for the forts in Raigad and Khopoli; and also the Karnala fort which is a popular trekking spot. Birds like Magpie Robin, the Malabar whistling thrush and Paradise flycatcher often migrate here making it the best spot for bird watching. \n\n
+
+The city is situated on the banks of Panvel creek surrounded by the Matheran Hills. Panvel is also known for the two prominent Ganesha temples in Maharashtra - Ballaleshwar and Varadavinayak. With Hinduism being the major religion in the city, Panvel also has a mix of Agri smaaj, muslims and koli community in the region. The best time to visit Panvel is during winters as the city receives substantial rainfall during monsoons and scorching summers."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/lonavalaimg"
+            android:src="@drawable/lonavala">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Situated in the Sahyadri range of the Western Ghats close to Pune and Mumbai, Lonavala is the most visited hill station in Maharashtra and the place to be during monsoons. With lots of waterfalls, lakes and hills around, it is a popular destination for camping, trekking and other adventure sports.\n\n
+
+Surrounded by dense forests, waterfalls, and dam alongside lakes, it is a must-visit if you admire nature. Located at an elevation of 624 m above sea level, Lonavala is one of the twin hill stations - Lonavala and Khandala (these two can be easily visited together). The popular tourist attractions in Lonavala are Bhaja caves, Bushi dam, Karla caves, Rajmachi fort, Ryewood lake, among others. Lonavala is also popular for the treks like the Andharban trek that starts from a village called Pimpri and ends in Bhira.\n\n
+
+Lonavala is famous for its production of the hard candy chikki which is a sweet eatable thing made from different nuts mixed with jaggery. It is also a major stop on the railway line which connects Mumbai and Pune."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

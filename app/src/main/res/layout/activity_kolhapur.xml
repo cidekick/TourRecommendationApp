@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/kolhapurimg"
+            android:src="@drawable/kolhapur">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Kolhapur is situated on the banks of the river Panchaganga in the south-west region of Maharashtra.  Situated 230 kilometres away from Pune, Kolhapur is one of the princely states and boasts of a rich legacy dating back to the times of the Marathas. Presently, Kolhapur is known for Kolhapuri sandals and necklaces that are sold worldwide. \n\n
+
+Kolhapur derives its name from a mythological story of Kolhasur - a demon who was slain by Goddess Mahalakshmi. The famous Mahalakshmi temple is situated here in the honour of Goddess Mahalakshmi. Kolhapuri chappals, Kolhapuri jewellery and Kolhapuri cuisine are famous all over India. It is a tourist-friendly destination, having no problem in commuting to accommodation and food. \n\n
+
+On the auspicious occasion of Naag Panchami, Kolhapur is at its enchanting best. Thousands of people worship live snakes by offering milk and rice. Another cultural festival that Kolhapur is known for is the Rankala Mahotsav, organized by the municipal corporation. It is a great time to witness the rich culture and traditions of this region. This five-day event is packed with live performances, musical concerts, exhibition and gastronomic delights."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

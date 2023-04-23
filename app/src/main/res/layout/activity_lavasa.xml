@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/lavasaimg"
+            android:src="@drawable/lavasa">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Known as India's newest hill station, the Lavasa Corporation is constructing this private city. The city is a beautiful project, stylistically based on the Italian town Portofino. Spreading across 7 hills, covering an area of 25000 acres, Lavasa is a perfect blend of beauty and infrastructure.\n\n
+
+Lavasa is a privately planned hill city located near Pune in Maharashtra. This modern day hill station is an enjoyable retreat for all its visitors and has a lot to offer to its tourists from picturesque sceneries to an extremely well-developed infrastructure including hotels, resorts, educational institutes, malls, residential property, IT companies etc. Lavasa is turning out to be a new hangout for people looking for a small trip away from the hustle and bustle of hectic city life. It is absolutely a leisure holiday destination located in the middle of lush green hills. Lavasa city is located in the Western Ghats of Maharashtra and manages to charm one with its mesmerising views. It is situated in Mose Valley near Pune at a distance of 65 Km, about an hour drive, and from Mumbai, it is approximately 200 Km away. Spread over 25,000 acres of land, it covers 65Km of lakefront that gives the whole city a mesmerising look."
+          android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

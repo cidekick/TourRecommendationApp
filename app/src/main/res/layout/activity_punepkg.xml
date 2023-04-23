@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/pune"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textSize="35dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textColor="@color/white"
+            android:background="@drawable/lessroundedbutton"            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/lessroundedbuttongrey"
+            android:fontFamily="@font/louisgeorge"
+    android:text="\nPune and its surrounding regions are a blend of rich cultural heritage, modernity, and natural beauty. The city is famous for its educational institutions, historical landmarks, and delectable cuisine. The surrounding hills and valleys offer stunning vistas, making it a popular weekend getaway. The region's warm and welcoming people make it a joy to explore and experience its many wonders.\n"
+        />
+
+        <Button
+            android:id="@+id/mumbaipunepkg"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Mumbai" />
+
+        <Button
+            android:id="@+id/punepunepkg"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Pune" />
+
+        <Button
+            android:id="@+id/nashikpunepkg"
+            android:layout_width="match_parent"
+            android:background="@drawable/roundedbutton"
+            android:layout_height="60dp"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Nashik" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

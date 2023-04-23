@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/tarakarliimg"
+            android:src="@drawable/tarkarli">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Tarkarli is famous for its long and narrow stretch of beach, with its pristine water, white sand, and of course Singhudurg, Maharashtra's popular sea fort.\n\n
+
+Tarkarli with a series of pristine beaches made up of white sand makes it an ideal choice for a holiday weekend. If lucky enough, you might spot Dolphins too. Tarkarli boasts of the finest talcum-powder sand to be found along Konkan. It could be called the most beautiful beach in all of Maharashtra, if not in India. As this place is just being discovered, you might be in time to find it untarnished by commercialization. The pristine white beaches shrouded with suru trees are a perfect place to relax, get in touch with nature and eat amazing Malvani food. The choice ranges from a long stroll along pristine white sand beaches to revisiting the past glory of Maratha bastion and forts."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

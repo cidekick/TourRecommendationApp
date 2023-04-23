@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/panchganiimg"
+            android:src="@drawable/panchgani">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Deriving its name from the five hills surrounding it, Panchgani is a popular hill station near Mahabaleshwar in Maharashtra, famous for its various sunset and sunrise points and scenic valley view.\n\n
+
+Located at an altitude of 1,334 mts, Panchgani is also known as Paachgani as the five hills that form the Sahyadri mountain ranges offer Panchgani its name. The picturesque backdrop of hills on one side and coastal plains on the other makes for an amazing view. In the British era, the place was treated as a summer resort and hence many colonial period establishments can be seen here. Mahabaleshwar is like a twin city to Panchgani.\n\n
+
+Other than the verdant green valleys, and soothing environment, the red, juicy strawberries are a major attraction of Panchgani. Rightly known as the ‘Strawberry Garden of India’, the farms of Panchgani are full of enchanting views of luscious berries, especially during February and March. "
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

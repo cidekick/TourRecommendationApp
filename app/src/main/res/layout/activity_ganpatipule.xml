@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/ganpatipuleimg"
+            android:src="@drawable/ganapatipule">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Beach town on the Konkan coastline, Ganpatipule has temples of Lord Ganesha as major attractions apart from the beautiful virgin beaches.\n\n
+
+Ganpatipule is a small town in the Ratnagiri district in Konkan region with a long stretch of pristine beaches, Ganpatipule is a perfect idyllic getaway in the slip of nature. Confluence of beach with river could be witnessed along with a hill shaped like Ganpati, the Hindu God of worship. The village of Ganapatipule is famous for its 400-year-old Ganesha temple. The idol is said to be a self-created monolith of Lord Ganesha, allegedly discovered 1600 years ago. Untouched by commercialism Ganapatipule makes for a great destination for peace-seekers, beach lovers and pilgrim alike. Ganpatipule also has water sports to offer between the months of November-May. Ganpatipule is typically clubbed with Ratnagiri and other smaller villages like Velneshwar, Malgund and Pawas for a perfect 2-3 day trip.
+
+"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

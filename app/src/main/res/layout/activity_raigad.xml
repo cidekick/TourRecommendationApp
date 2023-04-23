@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Maharashtra Darshan"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/raigadimg"
+            android:src="@drawable/raigad">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/louisgeorge"
+            android:textSize="18dp"
+            android:text="Raigad, is a historically rich district is situated in the Konkan region of Maharashtra. Located at 2,851mts, it is surrounded by Mumbai Harbour, Thane, Pune, Ratnagiri and the Arabian Sea.\n\n
+
+Chatrapati Shivaji Maharaj, renowned Maratha ruler, won this place in 1656 and his Maratha kingdom thus shifted base to Raigad. His prized win, the Raigad Fort is one of the main attractions of this place. The fort is built on an irregular mould of rock at a considerable height from the sea level. The Samadhi(tomb) of Shivaji is placed in this fort. Raigad is also known for it's other forts all once under the reign of Shivaji, it is primarily preferred by tourists because it has, as yet managed to preserve the culture of it's ancestors through it's historical sites, art and cuisine."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

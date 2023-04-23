@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simple.example1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".lessroundedbuttongrey"
+            android:exported="false" />
+        <activity
+            android:name=".lessroundedbutton"
+            android:exported="false" />
+        <activity
+            android:name=".punepkg"
+            android:exported="false" />
+        <activity
+            android:name=".konkanpkg"
+            android:exported="false" />
+        <activity
+            android:name=".nagpurpkg"
+            android:exported="false" />
+        <activity
+            android:name=".marathwada"
+            android:exported="false" />
+        <activity
+            android:name=".desh"
+            android:exported="false" />
+        <activity
+            android:name=".konkan"
+            android:exported="false" />
+        <activity
+            android:name=".vidarbha"
+            android:exported="false" />
+        <activity
+            android:name=".shegaon"
+            android:exported="false" />
+        <activity
+            android:name=".SelectPackage"
+            android:exported="false" />
+        <activity
+            android:name=".tarakarli"
+            android:exported="false" />
+        <activity
+            android:name=".tadobanationalpark"
+            android:exported="false" />
+        <activity
+            android:name=".shirdi"
+            android:exported="false" />
+        <activity
+            android:name=".ratnagiri"
+            android:exported="false" />
+        <activity
+            android:name=".raigad"
+            android:exported="false" />
+        <activity
+            android:name=".pune"
+            android:exported="false" />
+        <activity
+            android:name=".panvel"
+            android:exported="false" />
+        <activity
+            android:name=".panchgani"
+            android:exported="false" />
+        <activity
+            android:name=".nashik"
+            android:exported="false" />
+        <activity
+            android:name=".nagpur"
+            android:exported="false" />
+        <activity
+            android:name=".mumbai"
+            android:exported="false" />
+        <activity
+            android:name=".mahabaleshwar"
+            android:exported="false" />
+        <activity
+            android:name=".lonavala"
+            android:exported="false" />
+        <activity
+            android:name=".lavasa"
+            android:exported="false" />
+        <activity
+            android:name=".kolhapur"
+            android:exported="false" />
+        <activity
+            android:name=".kolad"
+            android:exported="false" />
+        <activity
+            android:name=".khandala"
+            android:exported="false" />
+        <activity
+            android:name=".ganpatipule"
+            android:exported="false" />
+        <activity
+            android:name=".chikhaldhara"
+            android:exported="false" />
+        <activity
+            android:name=".bhimashankar"
+            android:exported="false" />
+        <activity
+            android:name=".bhandardara"
+            android:exported="false" />
+        <activity
+            android:name=".aurangabad"
+            android:exported="false" />
+        <activity
+            android:name=".amboli"
+            android:exported="false" />
+        <activity
+            android:name=".alibaug"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
